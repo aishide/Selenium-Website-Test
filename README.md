@@ -1,55 +1,64 @@
 <div align="center">
 
-# 🌐 Selenium Website Test
+# 🧪 Selenium Website Testing Automation
 
-### Automating Website Testing with Selenium WebDriver 🚀
+### Building & Testing a Responsive Admission Form Website
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge\&logo=selenium\&logoColor=white)
-![Automation](https://img.shields.io/badge/Test-Automation-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</p>
 
-*A beginner-friendly Selenium automation project for testing website functionality through automated browser interactions.*
+**A project that combines front-end web development with automated software testing.**
 
 </div>
 
 ---
 
-## 📖 About the Project
+## 📌 Project Overview
 
-This project demonstrates how **Selenium WebDriver** can automate website testing by simulating real user interactions.
+This project demonstrates the complete workflow of **developing** and **testing** a web application.
 
-The automation script performs actions such as:
+I first created a responsive **Symbiosis Admission Form** using **HTML, CSS, and JavaScript**, and then automated its testing using **Selenium WebDriver (Java)** to simulate real user interactions and validate the functionality of the website.
 
-* 🖱️ Clicking buttons
-* ✍️ Filling out forms
-* ✅ Validating inputs
-* 🌐 Navigating web pages
-* ✔️ Verifying expected outcomes
-
-The primary goal is to understand the fundamentals of **web automation** and **end-to-end testing** using Selenium.
+The project showcases both **frontend development** and **automation testing**, making it a practical example of end-to-end web application testing.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* 🤖 Automated browser interaction
-* 📝 Form automation
-* 🔍 Web element validation
-* ⚡ End-to-end testing
-* 📚 Beginner-friendly project structure
-* 🧩 Easily extendable for future test cases
+### 🌐 Website
+
+* Responsive Admission Form UI
+* Client-side form validation
+* Interactive user experience
+* Clean and structured design
+
+### 🤖 Selenium Automation
+
+* Opens the website automatically
+* Locates web elements
+* Fills input fields
+* Selects options from dropdowns
+* Clicks buttons
+* Submits the form
+* Verifies successful execution
+* Simulates real user interaction
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-| Technology                 | Purpose                 |
-| -------------------------- | ----------------------- |
-| ☕ Java                     | Programming Language    |
-| 🧪 Selenium WebDriver      | Browser Automation      |
-| 🌍 ChromeDriver            | Browser Driver          |
-| 💻 Eclipse / IntelliJ IDEA | Development Environment |
+| Category                 | Technologies            |
+| ------------------------ | ----------------------- |
+| **Frontend**             | HTML5, CSS3, JavaScript |
+| **Automation**           | Selenium WebDriver      |
+| **Programming Language** | Java                    |
+| **Browser**              | Google Chrome           |
+| **Driver**               | ChromeDriver            |
 
 ---
 
@@ -58,100 +67,110 @@ The primary goal is to understand the fundamentals of **web automation** and **e
 ```text
 Selenium-Website-Test/
 │
-├── README.md
-└── Symbiosis Admission Form Selenium Test.zip
+├── 📄 README.md
+├── 📦 Symbiosis Admission Form Selenium Test.zip
+└── 📁 Source Files
+    ├── HTML
+    ├── CSS
+    ├── JavaScript
+    └── Selenium Java Test
 ```
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ How It Works
 
-### 📋 Prerequisites
-
-Before running the project, install:
-
-* Java JDK
-* Selenium WebDriver
-* Google Chrome
-* ChromeDriver (matching your Chrome version)
-* Eclipse or IntelliJ IDEA
+```text
+          User Opens Website
+                   │
+                   ▼
+      HTML • CSS • JavaScript Form
+                   │
+                   ▼
+      Selenium Launches Browser
+                   │
+                   ▼
+     Finds Elements Automatically
+                   │
+                   ▼
+       Fills Form with Test Data
+                   │
+                   ▼
+          Clicks Submit Button
+                   │
+                   ▼
+      Validates Successful Execution
+```
 
 ---
 
-### ⚙️ Installation
+## ▶️ Running the Project
 
-#### 1️⃣ Clone the repository
+### Prerequisites
+
+* Java JDK
+* Selenium WebDriver
+* Chrome Browser
+* ChromeDriver
+* Eclipse or IntelliJ IDEA
+
+### Steps
+
+1. Clone this repository.
 
 ```bash
 git clone https://github.com/aishide/Selenium-Website-Test.git
 ```
 
-#### 2️⃣ Open the project
+2. Open the project in your IDE.
 
-Import the project into your preferred Java IDE.
+3. Configure the ChromeDriver path.
 
-#### 3️⃣ Configure ChromeDriver
+4. Run the Selenium test.
 
-Update the ChromeDriver path if required.
-
-#### 4️⃣ Install dependencies
-
-Add the Selenium libraries to your project.
-
-#### 5️⃣ Run the automation script
-
-Execute the test file to start browser automation.
+5. Watch the browser automatically complete and submit the admission form.
 
 ---
 
 ## 🎯 Learning Outcomes
 
-Through this project, you'll gain hands-on experience with:
+This project helped me gain practical experience in:
 
-* ✔ Selenium WebDriver
-* ✔ Browser automation
-* ✔ Locating web elements
-* ✔ Form handling
-* ✔ Automated testing concepts
-* ✔ Test execution workflow
-
----
-
-## 📈 Future Improvements
-
-* [ ] Add TestNG
-* [ ] Integrate JUnit
-* [ ] Generate HTML reports
-* [ ] Cross-browser testing
-* [ ] Data-driven testing
-* [ ] Screenshot capture on failures
-* [ ] GitHub Actions CI/CD
+* Web Development using HTML, CSS & JavaScript
+* Selenium WebDriver Automation
+* Browser Automation
+* Form Validation Testing
+* Locating Web Elements
+* Automated User Interaction
+* End-to-End Testing
+* Test Script Development
 
 ---
 
-## 🤝 Contributing
+## 📈 Future Enhancements
 
-Contributions are always welcome!
-
-If you'd like to improve this project:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a Pull Request
+* Add TestNG framework
+* Integrate JUnit
+* Generate HTML test reports
+* Cross-browser testing
+* Screenshot capture on failures
+* Data-driven testing using Excel
+* Continuous Integration with GitHub Actions
 
 ---
 
-## 📜 License
+## 💡 Why This Project?
 
-This repository is intended for **educational and learning purposes**.
+Automation testing reduces repetitive manual work and improves testing efficiency.
+
+This project demonstrates how a web application can be developed and then automatically tested using Selenium, following a real-world software testing workflow.
 
 ---
 
 <div align="center">
 
-### ⭐ If you found this project helpful, consider giving it a star!
+### ⭐ If you like this project, consider giving it a Star!
 
-Made with ❤️ using Selenium & Java
+**Built with ❤️ using HTML, CSS, JavaScript, Java & Selenium**
 
 </div>
